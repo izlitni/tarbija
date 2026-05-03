@@ -6,8 +6,8 @@ function makeMeCute(name) {
     if (!firstName) return '';
 
     const digraphs = {
-        th: '#', sh: '@', ch: '&', ph: '*', wh: '%',
-        wr: '$', dh: '!', gh: '?', qu: ':'
+        th: '#', sh: '@', ch: '&', ph: '*',
+        kh: '$', dh: '!', gh: '?', qu: ':'
     };
 
     const reverseDigraphs = Object.fromEntries(
